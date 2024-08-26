@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(74, 137, 183);
+  border-radius: 10px;
+
+
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(96, 200, 200);
+  border-radius: 10px;
+
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+  border-radius: 30px;
+
+}
+#pause-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+#pause-menu button {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.screen {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.game-container {
+  display: none;
+}
+#game-over {
+  position: fixed;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*
+gameover */
